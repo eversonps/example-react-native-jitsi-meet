@@ -17,7 +17,7 @@ npx react-native run-android # to android
 npx react-native run-ios # to ios
 ```
 
-## important informations
+## Important Informations
  
 - This example app is tested only RN 0.70.4, maybe have problems for versions < 0.68 and need additional settings.
 
