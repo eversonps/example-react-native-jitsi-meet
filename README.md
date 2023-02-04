@@ -2,7 +2,7 @@
 
 Before showing how I did jitsi meet work in react-native, I would like to share some problems that I faced using https://github.com/skrafft/react-native-jitsi-meet in different versions of react native and SDK Jitsi Meet.
 
-Using RN 0.63.4 and SDK Jitsi Meet > 5.0.0: The Jitsi View component worked good, but other participants' screens and microphones appeared off even though they weren't. I believe it happens because the Jitsi Meet SDK < 5.0.0 is deprecated with the new jitsi meet server and no longer works correctly.
+Using RN 0.63.4 and SDK Jitsi Meet < 5.0.0: The Jitsi View component worked good, but other participants' screens and microphones appeared off even though they weren't. I believe it happens because the Jitsi Meet SDK < 5.0.0 is deprecated with the new jitsi meet server and no longer works correctly.
 
 Using RN > 0.68 and SDK Jitsi Meet 5.1.0: I had problems with black screen and component events not triggering on android. Sometimes it worked if I opened the component, exited the app and opened the component again.
 
